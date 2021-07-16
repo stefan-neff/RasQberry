@@ -112,8 +112,21 @@ By pushing the joystick to the left you select the `3Q`-option.<br/>
 To stop the Qrasp demo by selecting `D4` again.
 
 ## Continuative demos<br/>
-* **Qiskit-Demos**<br/>
-By cloning the git-repository with the qiskit-demos you have access to new jupyter notebooks that you can run and investigate.
+### Qiskit-Demos<br/>
+By cloning the git-repository with the qiskit-demos you have access to new jupyter notebooks that you can run and investigate.<br/>
 
-* **Jupyter Notebooks**<br/>
-By executing `S6 - Config & Demos` in the Rasqberry Configuration Tool you have acces to more demos that you can run in jupyter notebooks on your Raspberry Pi.
+### Jupyter Notebooks<br/>
+In your Jupyter Notebook you can invastigate demos (e.g. the qiskit tutorials and demos) or can run your own code.<br/>
+By executing `S6 - Config & Demos` in the Rasqberry Configuration Tool you have acces to more demos that you can run in jupyter notebooks on your Raspberry Pi. You need to provide your API Token and the jupyter notebook will be configurated.
+<br/>
+
+* **Start**<br/>
+To start the Jupyter Notebook you need to open the Rasqberry Configuration Tool. You can start it automatically with the Qiskit demos or with the Fun-qith-Quantum Demos. <br/>
+You need to select `H - HD Demos`and then the option you want.<br/>
+The Jupyter Noebook boots in the background ans you can access it over your browser or it will open on your RasQberry.<br/> 
+<br/>
+If you want to start the jupyter notebook with the cloned Fun-with-Quantum or Qiskit-Tutorials Repository you can open the Rasqberry-Configuration Tool and select `H - HD Demos` and then choose the demo you want to access.<br/>
+<br/>
+When you are on your Raspberry you can access the Jupyter Notebook by opening http://raspberrypi:8888/ in your browser. When you want to access the Jupyter Notebook on your Laptop you can open it by typing http://{ip address}:{port}. The Default port is *8888*. You can find the corresponding portnumber in the messagebox.
+The password is *RasQberry*.<br/>
+You can now use the Jupyter notebook.

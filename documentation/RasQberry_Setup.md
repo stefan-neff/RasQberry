@@ -59,7 +59,7 @@ pip3 install getgist
 . ./RasQ-init.sh
 ```
 <p align="center"> 
-    <img src="../Artwork/rasqberry_config-1.png" alt="drawing"/> <img src="../Artwork/rasqberry_config-2.png" alt="drawing"/> 
+    <img src="../Artwork/rasqberry_config-1.png" alt="drawing" height="250"/> <img src="../Artwork/rasqberry_config-2.png" alt="drawing" height="250"/> 
 </p>
 
 This will download and start the RasQberry Configuration Tool (rasqberry-config) in your terminal. It is similar to the well-known raspi-config and can also be used for some basic configurations. 
@@ -116,7 +116,7 @@ The above installation procedure used pre-compiled wheel files for most of the p
 
 ## Update your IBM Quantum Experience API Token
 If you want to access IBM Quantum Experience (to use e.g. the senseHAT demos) you need an API Token. 
-If you want to update or store your API Token, you need to select `D – Quantum Demos` first and after that `D8 – Update Q Token`.  
+If you want to update or store your API Token, you need to select `D – Quantum Demos` first and after that `D7 – Update Q Token`.  
 In the terminal you can now enter your new API Token.
 
 <br/>
@@ -124,16 +124,14 @@ In the terminal you can now enter your new API Token.
 ## Cloning the Git-Repository with the Qiskit-tutorials 
 By executing the following instructions you clone a repository (https://github.com/Qiskit/qiskit-tutorials) with a collection of jupyter notebooks aimed at teaching people who want to use Qiskit for writing quantum computing programs, and executing them on one of several backends (online quantum processors, online simulators, and local simulators).
 
-If you want to clone the Git Repository to access the with the Qiskit-Tutorials, you need to open the RasQberry Configuration Tool. First select `D – Quantum Demos` and second `D7 – Qiskit Tutorials`.  
-This will take a moment to clone.  
-Here you will need to store your IBM Quantum Experience API Token, which you can get at https://quantum-computing.ibm.com/ .  
-When you entered your Token, you executed D7 successfully.
+If you want to clone the Git Repository to access the with the Qiskit-Tutorials, you need to open the RasQberry Configuration Tool. First select `H - HD Demos` and second `Q1 - Qiskit Tutorials` (Jupyter Notebokk starts automatically) or `Q2 - Qiskit Tutorials - no browser`.<br/>
+This will take a moment to clone and as the case may be to open the jupyter notebook.
  
  <br/>
 
 
 ## Disable the Bloch Autostart
-You can disable the autostart of the BlochSphere Demo in the RasQberry Configuration Tool. First you need to select `D – Quantum Demos` and then `D9 – Disable Bloch Autostart`.   
+You can disable the autostart of the BlochSphere Demo in the RasQberry Configuration Tool. First you need to select `D – Quantum Demos` and then `D8 – Disable Bloch Autostart`.   
 The autostart is no disabled.
 
 <br/>
@@ -189,6 +187,17 @@ To remotely access the screen of your Raspberry Pi you need to have a VNC Viewer
 To connect to your Raspberry Pi you need to open your VNC Viewer.  
 In the VNC Viewer you enter the VNC server-address from your Raspberry. After that you will need to enter a username (default: pi) and a password (default: raspberry).  
 Your VNC Viewer will now connect to your Raspberry Pi.
+
+<br/>
+
+## Enable/Disable second VNC Display
+You can enable a second vnc display with an higher resolution that functions as a side-to-side display to your RasQberry or your first vnc display.<br/>
+To enable the second display you need to open the Rasqberry Configuration Tool and select `S - RasQberry Setup` and then `S1a - Enable second VNC`.<br/>
+You can now connect to the vnc server with the address: *{ip address}:5902*<br/>
+
+To disable the second display you need to open the Rasqberry Configuration Tool and select `S - RasQberry Setup`and then `S1b - Disable second VNC`.<br>
+
+<br/>
 
 ## Connect a LED Ring-Light to your Raspberry Pi
 To connect your LED light, you need three cables (GND, VCC & IN).
